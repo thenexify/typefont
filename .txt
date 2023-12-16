@@ -1,0 +1,108 @@
+poppins -
+inter-
+roboto-
+raleway-
+gabarito-
+kaushan script-
+montserrat-
+manrope-
+bungee-
+sf pro
+bruce forever
+fira code-
+hack
+jetbrains mono-
+permanent marker-
+edo
+graduate-
+league spartan bold
+arizonia
+bebas neue
+proximanova
+chomsky
+exo2
+norwester
+raustika regular
+varela
+yellowtail
+syne
+dm sans
+cormorant
+sora
+shippori
+orbitron
+futura
+bitter
+bebas neue
+emerland serif
+forever freedom
+planet kosmos
+ethnocentric
+nasalization
+space age
+911 porscha
+just in the firestorm
+roman type bn wood peaky blinders
+bitsumishi
+atmospheric
+guardians
+mechsuit
+coalition
+play pretend
+technohideo
+robot crush
+name smile
+sqare one
+airstrike
+akira
+american captain
+avengeance
+ts block
+falcon punch
+gotham
+rockwell
+
+latin(english and pretty much every european)
+hebrew(jewish)
+cyriillic(russian, bulgarian, serbian, ka3ak)
+greek
+asian(chinese, japanese, thai, hangul)
+indian(devanagari, pali, kannada, gurmukhi, telugu, tamil)
+
+lang categories - latin, hebrew, cyrillic, indian, greek, asian
+categorize by cinematic, classic, gaming/scifi, cursive, code/monospace, hollywood, concept
+
+pairs and also individual fonts**
+--------------------------------------------------------
+basement grotesque and aileron
+helvetica eb garamond
+
+Poppins
+Inter
+
+Roboto
+Raleway
+
+Bungee
+Montserrat
+
+Kaushan Script
+Cormorant
+
+Fira Code
+JetBrains Mono
+
+Yellowtail
+Syne
+
+League Spartan Bold
+Norwester
+
+Arizonia
+Proxima Nova
+
+Exo 2
+Orbitron
+
+Futura
+Bitte

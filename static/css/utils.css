@@ -1,0 +1,28 @@
+.lg-2{
+    font-size: 2em;
+}
+.flex-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.flex-col p a{
+    text-decoration: none;
+}
+.flex-col p a:hover{
+    text-decoration: 2px solid underline chartreuse;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 87vh;
+    width: 100%;
+    background-color: #000;
+}
+
+.main .center{
+    text-align: center;
+}

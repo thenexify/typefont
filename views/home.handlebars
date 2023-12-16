@@ -1,0 +1,28 @@
+<section class="fonts">
+    <div class="center">
+        <p class="lg-2">Popular Fonts</p>
+    </div>
+    <div class="fonts-container">
+        {{#each font}}
+            <div class="fonts-item">
+                <p class="fontName">{{this.name}} - {{this.author}} | <span class="ctg">{{this.category}}</span></p>
+                <p class="previewText" contenteditable="true" style="font-family: '{{this.name}}';"> Whereas disregard and contempt for human rights have resulted.</p>
+                <div class="flex-row">
+                    <a href="{{this.ttfSrc}}" download="{{this.name}}-typefont" class="actions">Download TTF</a>
+                </div>
+            </div>
+        {{/each}}
+        <div class="notification">
+        <p>Check out more fonts in the sidebar or navbar.</p>
+    </div>
+    </div>
+    
+</section>
+<style>
+    {{#each font}}
+        @font-face {
+            font-family: '{{{this.name}}}';
+            src: url({{{this.ttfSrc}}});
+        }
+    {{/each}}
+</style>
