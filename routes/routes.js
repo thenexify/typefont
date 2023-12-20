@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const {fonts, fontsHome} = require('../data/fonts');
+const { zipFiles } = require('../zip')
 
 router.get('/', (req, res)=>{
     res.render('home', {
@@ -27,6 +28,7 @@ router.get('/download/:slug', (req, res)=>{
             return font
         }
     })
+    zipFiles(downloadingFont[0])
 })
 
 router.get('/attrib', (req, res)=>{
