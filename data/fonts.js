@@ -76,7 +76,7 @@ const fonts = [
         name: 'Ethnocentric', 
         family: 'Serif',
         category: 'Sci-Fi',
-        ttfSrc: '/static/fonts/ethnocentric.ttf',
+        ttfSrc: '/static/fonts/ethnocentric.otf',
         script: 'Latin',
         slug: 'ethnocentric',
         author: 'DaFont'
@@ -85,7 +85,7 @@ const fonts = [
         name: 'Play Pretend', 
         family: 'Serif',
         category: 'Sci-Fi',
-        ttfSrc: '/static/fonts/play_pretend.ttf',
+        ttfSrc: '/static/fonts/play_pretend.otf',
         script: 'Latin',
         slug: 'play_pretend',
         author: 'DaFont'
@@ -102,7 +102,7 @@ const fonts = [
     {
         name: 'YellowTail', 
         family: 'Serif',
-        category: 'Cinematic',
+        category: 'Cursive',
         ttfSrc: '/static/fonts/yellowtail.ttf',
         script: 'Latin',
         slug: 'yellowtail',
@@ -111,8 +111,8 @@ const fonts = [
     {
         name: 'Raustila Regular', 
         family: 'Serif',
-        category: 'Cinematic',
-        ttfSrc: '/static/fonts/raustila_regular.ttf',
+        category: 'Cursive',
+        ttfSrc: '/static/fonts/raustila.ttf',
         script: 'Latin',
         slug: 'raustila_regular',
         author: 'DaFont'
@@ -121,7 +121,7 @@ const fonts = [
         name: 'Norwester', 
         family: 'Serif',
         category: 'Cinematic',
-        ttfSrc: '/static/fonts/norwester.ttf',
+        ttfSrc: '/static/fonts/norwester.otf',
         script: 'Latin',
         slug: 'norwester',
         author: 'DaFont'
@@ -142,6 +142,195 @@ const fonts = [
         ttfSrc: '/static/fonts/syne.ttf',
         script: 'Latin',
         slug: 'syne',
+        author: 'DaFont'
+    },
+    {
+        name: 'Gabarito', 
+        family: 'Serif',
+        category: 'Classic',
+        ttfSrc: '/static/fonts/gabarito.ttf',
+        script: 'Latin',
+        slug: 'gabarito',
+        author: 'GoogleFonts'
+    },
+    {
+        name: 'DS Digital', 
+        family: 'Serif',
+        category: 'Classic',
+        ttfSrc: '/static/fonts/DS-DIGIB.ttf',
+        script: 'Latin',
+        slug: 'ds-digib',
+        author: 'GoogleFonts'
+    },
+    {
+        name: 'Edo Sz', 
+        family: 'Serif',
+        category: 'Cinematic',
+        ttfSrc: '/static/fonts/edosz.ttf',
+        script: 'Latin',
+        slug: 'edosz',
+        author: 'DaFont'
+    },
+    {
+        name: 'Nasalization', 
+        family: 'Serif',
+        category: 'Cinematic',
+        ttfSrc: '/static/fonts/nasalization-rg.otf',
+        script: 'Latin',
+        slug: 'nasalization',
+        author: 'DaFont'
+    },
+    {
+        name: 'Permanent Marker', 
+        family: 'Serif',
+        category: 'Cinematic',
+        ttfSrc: '/static/fonts/permanentmarker.ttf',
+        script: 'Latin',
+        slug: 'permanentmarker',
+        author: 'GoogleFonts'
+    },
+    {
+        name: 'JetBrains Mono', 
+        family: 'Serif',
+        category: 'Code',
+        ttfSrc: '/static/fonts/jb_mono.ttf',
+        script: 'Latin',
+        slug: 'jetbrains_mono',
+        author: 'GoogleFonts'
+    },
+    {
+        name: 'Hack', 
+        family: 'Serif',
+        category: 'Code',
+        ttfSrc: '/static/fonts/hack.ttf',
+        script: 'Latin',
+        slug: 'hack',
+        author: 'Source Foundry'
+    },
+    {
+        name: 'Fira Code', 
+        family: 'Serif',
+        category: 'Code',
+        ttfSrc: '/static/fonts/fira_code.ttf',
+        script: 'Latin',
+        slug: 'firacode',
+        author: 'GoogleFonts'
+    },
+    {
+        name: 'Cascadia Code', 
+        family: 'Serif',
+        category: 'Code',
+        ttfSrc: '/static/fonts/cascadia_code.ttf',
+        script: 'Latin',
+        slug: 'cascadia_code',
+        author: 'Microsoft'
+    },
+    {
+        name: 'Bitsumishi', 
+        family: 'Serif',
+        category: 'Sci-Fi',
+        ttfSrc: '/static/fonts/BITSUMIS.ttf',
+        script: 'Latin',
+        slug: 'bitsumishi',
+        author: 'DaFont'
+    },
+    {
+        name: 'Chomsky', 
+        family: 'Serif',
+        category: 'Cinematic',
+        ttfSrc: '/static/fonts/Chomsky.otf',
+        script: 'Latin',
+        slug: 'chomsky',
+        author: 'DaFont'
+    },
+    {
+        name: 'Orbitron', 
+        family: 'Serif',
+        category: 'Sci-Fi',
+        ttfSrc: '/static/fonts/orbitron.ttf',
+        script: 'Latin',
+        slug: 'chomsky',
+        author: 'GoogleFonts'
+    },
+    {
+        name: 'Montserrat', 
+        family: 'Serif',
+        category: 'Classic',
+        ttfSrc: '/static/fonts/montserrat.ttf',
+        script: 'Latin',
+        slug: 'montserrat',
+        author: 'GoogleFonts'
+    },
+    {
+        name: 'Gotham', 
+        family: 'Serif',
+        category: 'Cinematic',
+        ttfSrc: '/static/fonts/gotham.ttf',
+        script: 'Latin',
+        slug: 'gotham',
+        author: 'DaFont'
+    },
+    {
+        name: 'Just In the Firestorm', 
+        family: 'Serif',
+        category: 'Cinematic',
+        ttfSrc: '/static/fonts/Justin_thefirestorm.ttf',
+        script: 'Latin',
+        slug: 'ji_firestorm',
+        author: 'DaFont'
+    },
+    {
+        name: 'Manrope', 
+        family: 'Serif',
+        category: 'Classic',
+        ttfSrc: '/static/fonts/manrope.ttf',
+        script: 'Latin',
+        slug: 'manrope',
+        author: 'GoogleFonts'
+    },
+    {
+        name: 'Name Smile', 
+        family: 'Serif',
+        category: 'Sci-Fi',
+        ttfSrc: '/static/fonts/name_smile.otf',
+        script: 'Latin',
+        slug: 'name_smile',
+        author: 'DaFont'
+    },
+    {
+        name: 'Raleway',
+        family: 'Serif',
+        category: 'Classic',
+        ttfSrc: '/static/fonts/raleway.ttf',
+        script: 'Latin',
+        slug: 'raleway',
+        author: 'GoogleFonts'
+    },
+    {
+        name: 'Poppins',
+        family: 'Serif',
+        category: 'Classic',
+        ttfSrc: '/static/fonts/poppins.ttf',
+        script: 'Latin',
+        slug: 'poppins',
+        author: 'GoogleFonts'
+    },
+    {
+        name: 'Robot Crush',
+        family: 'Serif',
+        category: 'Sci-Fi',
+        ttfSrc: '/static/fonts/robot_crush.otf',
+        script: 'Latin',
+        slug: 'robot_crush',
+        author: 'DaFont'
+    },
+    {
+        name: 'Coalition V2',
+        family: 'Serif',
+        category: 'Sci-Fi',
+        ttfSrc: '/static/fonts/Coalition_v2.ttf',
+        script: 'Latin',
+        slug: 'coalition_v2',
         author: 'DaFont'
     },
 ]
