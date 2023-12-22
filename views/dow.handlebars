@@ -1,0 +1,11 @@
+<style>
+    {{#each font}}
+        @font-face {
+            font-family: '{{{this.name}}}';
+            src: url({{{this.ttfSrc}}});
+        }
+    {{/each}}
+</style>
+<div class="center">
+    <a href="{{link}}" data-lg>Download</a>
+</div>

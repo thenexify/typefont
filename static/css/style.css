@@ -3,7 +3,6 @@ html, body{
     margin: 0;
     background-color: black;
 }
-
 *{
     font-family: 'Inter';
     color: white;
@@ -94,6 +93,21 @@ html, body{
     border-radius: 8px 0 0 8px;
     outline: none !important;
 }
+
+[data-lg]{
+    display: inline;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    text-decoration: none;
+    color: black;
+    font-family: 'Akira' !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(2);
+}
+
 .search button{
     background-color: whitesmoke;
     border: none;

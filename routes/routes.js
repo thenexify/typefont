@@ -2,6 +2,8 @@ const express = require('express');
 const router = express.Router();
 const {fonts, fontsHome} = require('../data/fonts');
 const { zipFiles } = require('../zip')
+const currentTime = new Date().getTime()
+const path = require('path');
 
 router.get('/', (req, res)=>{
     res.render('home', {
@@ -29,7 +31,13 @@ router.get('/download/:slug', (req, res)=>{
         }
     })
     zipFiles(downloadingFont[0])
-})
+    const link = `/file/${currentTime}.zip`
+    res.render('dow', 
+    {
+        'link': link,
+        font: fonts
+    })
+});
 
 router.get('/attrib', (req, res)=>{
     res.render('attributions');

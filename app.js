@@ -4,6 +4,7 @@ const {engine} = require('express-handlebars');
 const port = 6600
 
 app.use('/static', express.static('static'));
+app.use('/file', express.static('downloads'));
 app.use('/', require('./routes/routes'));
 app.engine('handlebars', engine());
 app.set('view engine', 'handlebars');

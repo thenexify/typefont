@@ -1,16 +1,19 @@
-const jszip = require('jszip')
-const fs = require('fs')
+const JSZip = require('jszip')
+const fs = require('fs');
+const path = require('path');
+const sixtDigit = new Date().getTime()
 
-const zipFiles = async (font)=>{
-    const rootDir = 'C:/Users/LENOVO/Desktop/BK/BharathCoder/Assets/Backend/ProjectJSBackend/TypeFont/'
-    const zip = new jszip();
-    const fileContent = fs.readFileSync(font.ttfSrc)
-    const fileExtension = font.ttfSrc.slice(font.ttfSrc.length-3)
-    const format = `${rootDir}${font.name}.${fileExtension}`
-    zip.file(format, fileContent)
+const zipFiles = async (fontArray)=>{
+    const zip = new JSZip();
+    const fileExt = fontArray.ttfSrc.slice(fontArray.ttfSrc.length-4)
+    const fileName = fontArray.name
+
+    const fileContent = fs.readFileSync(path.join(__dirname, fontArray.ttfSrc))
+
+    zip.file(`${fileName}${fileExt}`, fileContent)
     const zipContent = await zip.generateAsync({type: 'nodebuffer'})
-    fs.writeFileSync('output-typefont.zip', zipContent)
-    console.log('Write ZIP file to output.zip');
+    fs.writeFileSync(path.join(`./downloads/${sixtDigit}.zip`), zipContent)
+    console.log('Write ZIP ✅');
 }
 
 module.exports = {zipFiles}
